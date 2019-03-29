@@ -29,5 +29,5 @@ Well, now you can generate SVG files from a string, with a custom font!
 ## Thanks!
 
 - Based on [Fontkit](https://github.com/foliojs/fontkit). Thanks for creating awesomeness!
-- Based on [AlexandraK](https://github.com/AlexandraK)'s [hint of an answer](https://github.com/foliojs/fontkit/issues/148).
+- Based on [AlexandraK](https://github.com/AlexandraK)'s [answer](https://github.com/foliojs/fontkit/issues/148), thanks!
 - [1001fonts](1001fonts.com) Thanks for the free font to demonstrate.

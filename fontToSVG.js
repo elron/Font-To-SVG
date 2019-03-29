@@ -18,7 +18,8 @@ const y = 1200;
 // height of canvas
 const height = 2200;
 
-// if your canvas is too wide, then try a bigger number than 12. if its too narrow, lower the number or remove it. it depends on the font
+// if your canvas is too wide, then try a bigger number than 16.
+// if its too narrow, lower the number or change it to 1. (it depends on the font)
 const makeWidthSmallerBy = 16;
 
 
