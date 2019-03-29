@@ -19,7 +19,7 @@ Well, now you can generate SVG files from a string, with a custom font!
 
 2. Make sure you have node.js installed
 
-3. Edit fontToSVG.js to change your font & output settings.
+3. Edit `fontToSVG.js` to change your font & output settings.
 
 4. Run this in the terminal: ``` node fontToSVG ```
 
