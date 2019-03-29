@@ -3,7 +3,8 @@
 ## Easily convert font string to SVG file!
 
 FontKit has a way to make SVG from a specific letter, but not for a full string.
-Well, now you can generate SVG file from a string using, with a specified font!
+
+Well, now you can generate SVG files from a string, with a custom font!
 
 ### Notes:
 
