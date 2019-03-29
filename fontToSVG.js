@@ -37,7 +37,7 @@ let font = fontkit.openSync(fontSource),
 // now the svg variable stores your glyphs.
 // its time to create an svg file that contains them:
 
-var stream = fs.createWriteStream("fontToSvg.svg");
+var stream = fs.createWriteStream("svg/fontToSvg.svg");
 stream.once('open', function (fd) {
     stream.write('<svg xmlns="http://www.w3.org/2000/svg" width="' + aw / makeWidthSmallerBy + '" height="100" viewBox="0 0 ' + aw + ' ' + height + '"><g transform="translate(0,' + y + ') scale(1,-1)">' + svg.join('') + '</g></svg>');
     stream.end();
