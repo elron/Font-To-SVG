@@ -1,0 +1,24 @@
+{
+  "name": "font-to-svg",
+  "version": "1.0.0",
+  "description": "Generates SVG file from a string using specified font in node.js",
+  "main": "fontToSVG.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "font",
+    "opentype",
+    "liga",
+    "text",
+    "svg",
+    "string",
+    "node"
+  ],
+  "author": "Elron Bucai",
+  "license": "GPLv3",
+  "dependencies": {
+    "fontkit": "^1.8.0"
+  }
+}

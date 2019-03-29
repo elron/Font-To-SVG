@@ -1,7 +1,33 @@
 # Font To SVG
 
-### Easily convert font string to SVG file!
+## Easily convert font string to SVG file!
 
-This takes care of these opentype features: liga
+FontKit has a way to make SVG from a specific letter, but not for a full string.
+Well, now you can generate SVG file from a string using, with a specified font!
 
-Generates SVG file from a string using specified font in node.js
+### Notes:
+
+ - 
+ - This takes care of these opentype features: liga
+ - *Warnings:* I did not check if it kerns currectly.
+
+
+## How to use?
+
+1. Install FontKit dependencie:
+
+``` npm install fontkit ```
+
+2. Make sure you have node.js installed
+
+3. Run this in the terminal:
+
+``` node fontToSVG ```
+
+4. Watch the magic happen - a new SVG file has been created that contains your text! 
+
+
+## Thanks!
+
+- Based on [Fontkit](https://github.com/foliojs/fontkit). Thanks for creating awesomeness!
+- Based on [AlexandraK](https://github.com/AlexandraK)'s [hint of an answer](https://github.com/foliojs/fontkit/issues/148).
